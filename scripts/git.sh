@@ -35,3 +35,6 @@ cp -r Dribbblish $HOME/.config/spicetify/
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify apply
+
+
+rm -rf Additional 

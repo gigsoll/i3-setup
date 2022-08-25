@@ -1,2 +1,2 @@
-i3-gnome rofi-power-menu picom-pijulius-git autotiling mantablockscreen pipes.sh polybar-spotify-module spicetify-cli touchegg 
-polybar rofi alacritty vim nautilus ranger bashtop gnome-calculator blueberry gnome-control-center network-manager-applet nitrogen xdg-desktop-portal-gnome flameshot pamixer numlockx brightnessctl base-devel jq neofetch fish
+i3-gnome rofi-power-menu picom-pijulius-git autotiling mantablockscreen pipes.sh polybar-spotify-module spicetify-cli touchegg  
+polybar rofi alacritty vim nautilus ranger bashtop gnome-calculator blueberry gnome-control-center network-manager-applet nitrogen xdg-desktop-portal-gnome flameshot pamixer numlockx brightnessctl base-devel jq neofetch fish curl noto-fonts i3-gaps ttf-fira-sans ttf-fira-sans bat lsd 
