@@ -1,11 +1,16 @@
 # i3-dotfiles
 ## Final result
 
-![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/app-launcher.png?raw=true "Optional Title")
+![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-setup/blob/master/screenshots/rofi.png?raw=true "Optional Title")
 
-![Power menu](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/power-menu.png?raw=true "Optional Title")	![App launcher](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/cava-bashtop-neofetch.png?raw=true "Optional Title")
+![Power menu](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")	![App launcher](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")
 
-![Vim](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/vim.png?raw=true "Optional Title")	![Spotify](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/spotify.png?raw=true "Optional Title")
+![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim1.png?raw=true "Optional Title")	![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim2.png?raw=gtrue "Optional Title")
+
+
+![GTK](https://github.com/gigsoll/i3-setup/blob/master/screenshots/gtk.png?raw=true "Optional Title")	![Workflow](https://github.com/gigsoll/i3-setup/blob/master/screenshots/work.png?raw=gtrue "Optional Title")
+
+
 ## Install
 ```bash
 git clone https://github.com/gigsoll/i3-setup.git
