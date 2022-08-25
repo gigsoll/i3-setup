@@ -1,7 +1,7 @@
 # i3-dotfiles
 ## Final result
 
-![Desktop](?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/app-launcher.png?raw=true "Optional Title")
+![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/app-launcher.png?raw=true "Optional Title")
 
 ![Power menu](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/power-menu.png?raw=true "Optional Title")	![App launcher](https://github.com/gigsoll/i3-dotfiles/blob/master/Screenshots/cava-bashtop-neofetch.png?raw=true "Optional Title")
 
