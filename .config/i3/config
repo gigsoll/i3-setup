@@ -79,9 +79,9 @@ bindsym $mod+Shift+g exec $game-launcher
 bindsym $mod+Shift+m exec $game-messenger
 bindsym $mod+Shift+v exec $terminal -e $editor
 bindsym $mod+Shift+z exec polybar-msg cmd toggle
-bindsym $mod+i exec gnome-control-center
+bindsym $mod+i exec GTK_THEME=Colloid-Dark-Nord gnome-control-center
 bindsym $mod+Shift+l exec libreoffice ~/ВСТУП/ЛПНУ-122.odt 
-bindsym $mod+Shift+c exec gnome-calculator
+bindsym $mod+Shift+c exec GTK_THEME=Colloid-Dark-Nord gnome-calculator 
 
 #Work with windows
 

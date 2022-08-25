@@ -15,6 +15,9 @@ git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
 cd Colloid-gtk-theme
 ./install.sh --tweaks nord
 cd ..
+gsettings set org.gnome.desktop.interface icon-theme 'Colloid-nord'
+gsettings set org.gnome.desktop.interface gtk-theme "Colloid-Dark-Nord"
+gsettings set org.gnome.desktop.wm.preferences button-layout :
 
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
 cd Colloid-icon-theme
