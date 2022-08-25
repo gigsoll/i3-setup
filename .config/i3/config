@@ -1,0 +1,198 @@
+## Setting Apps
+
+set $bar polybar
+set $menu rofi -show run
+set $browser google-chrome-stable
+set $terminal alacritty
+set $editor vim
+set $music spotify
+set $game-messenger discord
+set $g-files nautilus
+set $t-files ranger
+set $game-launcher steam
+set $top bashtop
+set $power rofi -show power-menu -modi "power-menu:~/.config/rofi/rofi-power-menu/rofi-power-menu --choices=shutdown/reboot/suspend/logout"
+set $messenger telegram-desktop
+
+## Seting workspaces set $ws1 "1" set $ws2 "2" set $ws3 "3"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+## Window automatization
+for_window [class="gnome-calculator"] floating enable
+for_window [title="Bluetooth"] floating enable
+for_window [title="Spotify"] move workspace $ws10
+for_window [title="Steam – Новини"] floating enable
+for_window [class="pl.skmedix.bootstrap.Bootstrap"] floating enable
+for_window [class="com-gummer-launcher-Bootstrap"] floating enable
+## Window design
+show_marks no
+for_window [class="^.*"] border pixel 3
+gaps inner 15
+## Nord Colors
+
+set $dark-blue #5E81AC
+set $light-blue #88C0D0
+set $red #BF616A
+set $yellow #EBCB8B
+set $orange #D08770
+set $green #A3BE8C
+set $purple #B48EAD
+set $gray #4C566A
+set $light-gray #D8DEE9
+# class                 	border  	    backgr.         text    	      indicator 	    child_border
+client.focused        		$dark-blue	  $dark-blue	    $light-gray	    $light-blue	    $dark-blue
+client.focused_inactive		$gray         $gray           $ligth-gray     $gray           $gray 
+client.unfocused        	$gray		      $gray		        $ligth-gray	    $gray		        $gray
+client.urgent          		$yellow		    $yellow		      $yellow		      $yellow	        $yellow 
+client.placeholder      	$gray		      $gray		        $gray		        $gray		        $gray
+
+client.background       	$gray
+
+## Bar
+exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
+
+bindsym $mod+Tab exec --no-startup-id rofi -modi combi -combi-modi window -show combi
+bindsym $mod+Shift+K exec $browser https://github.com/gigsoll/i3-dotfiles/
+bindsym $mod+Return exec $terminal
+bindsym $mod+q kill
+bindsym $mod+d exec $menu 
+bindsym $mod+Shift+o exec obs
+bindsym $mod+e exec $g-files
+bindsym $mod+g exec $HOME/.config/i3/scripts/gaps.sh
+bindsym $mod+Shift+w exec $browser
+bindsym $mod+shift+t exec $messenger
+bindsym $mod+Shift+e exec $terminal -e $t-files
+bindsym $mod+Shift+s exec $music
+bindsym $mod+Escape exec $terminal -e $top
+bindsym $mod+Shift+p exec $terminal -e 'pipes.sh'
+bindsym $mod+Shift+q exec $power 
+bindsym $mod+Shift+g exec $game-launcher
+bindsym $mod+Shift+m exec $game-messenger
+bindsym $mod+Shift+v exec $terminal -e $editor
+bindsym $mod+Shift+z exec polybar-msg cmd toggle
+bindsym $mod+i exec gnome-control-center
+bindsym $mod+Shift+l exec libreoffice ~/ВСТУП/ЛПНУ-122.odt 
+bindsym $mod+Shift+c exec gnome-calculator
+
+#Work with windows
+
+# Focusing for people
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Moving focused for people
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split modes
+bindsym $mod+b split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+
+# Layout changing
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+p layout toggle split
+
+## Switching workspaces
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+## Move focused window to another workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+## Config stufs
+bindsym $mod+Shift+r restart
+#bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+## Resizing
+mode "resize" {
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+## Keyboard layout
+exec --no-startup-id "setxkbmap us,ua -option 'grp:lalt_lshift_toggle'"
+
+## Please, Don't Touch Anything
+set $mod Mod4
+font pango:monospace 8
+
+exec_always --no-startup-id xinput set-prop "SYNA7DB5:01 06CB:CD41 Touchpad" "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput set-prop "SYNA7DB5:01 06CB:CD41 Touchpad" "libinput Natural Scrolling Enabled" 1
+
+exec --no-startup-id dex --autostart --environment i3
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id nm-applet
+exec_always --no-startup-id picom --experimental-backends --vsync --animations
+exec_always --no-startup-id nitrogen --restore &
+exec_always --no-startup-id autotiling 
+exec_always --no-startup-id blueberry-tray
+exec_always --no-startup-id nm-applet
+exec --no-startup-id "setxkbmap -model pc104 -layout us,ua -variant ,, -option grp:shift_alt_toggle"
+exec_always --no-startup-id touchegg
+exec clipit
+bindsym $mod+l exec mantablockscreen -sc
+
+exec_always /usr/lib/polkit-1/polkitd --no-debug
+exec_always /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Screenshots
+# Screenshots
+bindsym Print exec flameshot gui
+bindsym Shift+Print exec flameshot full
+exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
+
+#Volue control
+bindsym XF86AudioMute          exec pamixer --toggle-mute
+bindsym XF86AudioLowerVolume   exec pamixer --decrease 5
+bindsym XF86AudioRaiseVolume   exec pamixer --increase 5
+exec_always --no-startup-id numlockx on
+## Brightness control
+bindsym XF86MonBrightnessUp exec --no-startup-id  brightnessctl set +10%# increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10-% # decrease screen brightness
