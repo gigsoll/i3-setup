@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 
 mkdir Additional
 cd Additional
@@ -8,7 +10,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 mkdir -p $HOME/.vim
 mkdir -p $HOME/.vim/autoload/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-	      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ## Coloid
 git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
