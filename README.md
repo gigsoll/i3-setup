@@ -3,7 +3,7 @@
 
 ![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-setup/blob/master/screenshots/rofi.png?raw=true "Optional Title")
 
-![Power menu](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")	![App launcher](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")
+![Power menu](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")
 
 ![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim1.png?raw=true "Optional Title")	![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim2.png?raw=gtrue "Optional Title")
 
