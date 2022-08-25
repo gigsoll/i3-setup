@@ -1,4 +1,4 @@
-# i3-dotfiles
+# i3-setup
 
 ## Install (Arch only)
 ```bash
