@@ -3,8 +3,6 @@
 
 mkdir Additional
 cd Additional
-## Install omf
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 ## Install vimplug
 mkdir -p $HOME/.vim
@@ -38,3 +36,6 @@ spicetify apply
 
 
 rm -rf Additional 
+
+
+## Install omf
