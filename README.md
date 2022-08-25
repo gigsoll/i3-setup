@@ -1,4 +1,12 @@
 # i3-dotfiles
+
+## Install (Arch only)
+```bash
+git clone https://github.com/gigsoll/i3-setup.git
+cd i3-setup
+./install.sh
+```
+
 ## Final result
 
 ![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-setup/blob/master/screenshots/rofi.png?raw=true "Optional Title")
@@ -11,12 +19,7 @@
 ![GTK](https://github.com/gigsoll/i3-setup/blob/master/screenshots/gtk.png?raw=true "Optional Title")	![Workflow](https://github.com/gigsoll/i3-setup/blob/master/screenshots/work.png?raw=gtrue "Optional Title")
 
 
-## Install
-```bash
-git clone https://github.com/gigsoll/i3-setup.git
-cd i3-setup
-./install.sh
-```
+
 
 ## Keybinds
 ### Basic stufs
