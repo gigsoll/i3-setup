@@ -1,7 +1,24 @@
 # i3-setup
 
-[<img src="https://github.com/gigsoll/i3-setup/screenshots/alive.png" width="25"/>](https://savelife.in.ua/en/)
-[<img src="https://github.com/gigsoll/i3-setup/screenshots/pritula.png" width="25"/>](https://prytulafoundation.org/en)
+## Table of contents
+* [Important](#realy-important-information)
+* [Installation](#install-arch-only)
+* [Keybindings](#keybinds)
+  * [Basics](#basic-stufs)
+  * [App launchers](#different-app-launchers)
+* [Final-result](#final-result) 
+
+## Realy important information
+
+On the morning of February 24, Russia began its invasion of Ukraine. We are all very grateful for your help. If you have a desire to help personally, you will make a donation to this founds. Every donation counts. Thank you ☺️
+
+Since 2014, “Come Back Alive” key goal has been to make the Armed Forces more efficient, save the lives of the military and systematically counter the enemy.
+
+[<img src="https://github.com/gigsoll/i3-setup/blob/master/screenshots/alive.png" width="50"/>](https://savelife.in.ua/en/) 
+
+The task of the military headquarters of the Serhiy Prytula Charitable Foundation is to save as many lives as possible of the defenders of Ukraine and help them liberate the occupier.
+
+[<img src="https://github.com/gigsoll/i3-setup/blob/master/screenshots/pritula.png" width="50"/>](https://prytulafoundation.org/en)
 
 
 ## Install (Arch only)
@@ -10,19 +27,6 @@ git clone https://github.com/gigsoll/i3-setup.git
 cd i3-setup
 ./install.sh
 ```
-
-## Final result
-
-![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-setup/blob/master/screenshots/rofi.png?raw=true "Optional Title")
-
-![Power menu](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")
-
-![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim1.png?raw=true "Optional Title")	![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim2.png?raw=gtrue "Optional Title")
-
-
-![GTK](https://github.com/gigsoll/i3-setup/blob/master/screenshots/gtk.png?raw=true "Optional Title")	![Workflow](https://github.com/gigsoll/i3-setup/blob/master/screenshots/work.png?raw=gtrue "Optional Title")
-
-
 
 
 ## Keybinds
@@ -54,4 +58,14 @@ cd i3-setup
 | Super+Shift+C | Run calculator                  |
 | Super+Shift+L | Open LibreOffice                |
 
+## Final result
+
+![Desktop](https://github.com/gigsoll/i3-setup/blob/master/screenshots/desktop.png?raw=true "Optional Title")	![Rofi](https://github.com/gigsoll/i3-setup/blob/master/screenshots/rofi.png?raw=true "Optional Title")
+
+![Power menu](https://github.com/gigsoll/i3-setup/blob/master/screenshots/power.png?raw=true "Optional Title")
+
+![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim1.png?raw=true "Optional Title")	![Vim](https://github.com/gigsoll/i3-setup/blob/master/screenshots/vim2.png?raw=gtrue "Optional Title")
+
+
+![GTK](https://github.com/gigsoll/i3-setup/blob/master/screenshots/gtk.png?raw=true "Optional Title")	![Workflow](https://github.com/gigsoll/i3-setup/blob/master/screenshots/work.png?raw=gtrue "Optional Title")
 
