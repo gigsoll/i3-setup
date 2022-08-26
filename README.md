@@ -1,7 +1,7 @@
 # i3-setup
 
 ## Table of contents
-* [Important](#realy-important-information)
+* [Important information](#realy-important-information)
 * [Installation](#install-arch-only)
 * [Keybindings](#keybinds)
   * [Basics](#basic-stufs)
