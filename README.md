@@ -6,7 +6,7 @@
 * [Keybindings](#keybinds)
   * [Basics](#basic-stufs)
   * [App launchers](#different-app-launchers)
-* [Final-result](#final-result) 
+* [Final result](#final-result) 
 
 ## Realy important information
 
