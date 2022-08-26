@@ -1,6 +1,6 @@
 # i3-setup
 
-Все те саме, але украінською 🇺🇦 можна знайти [тут](https://github.com/gigsoll/i3-setup/blob/master/README-UA.md)
+Все те саме, але українською 🇺🇦 можна знайти [тут](https://github.com/gigsoll/i3-setup/blob/master/README-UA.md)
 
 ## Table of contents
 * [Important information](#realy-important-information)
