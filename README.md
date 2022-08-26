@@ -1,5 +1,9 @@
 # i3-setup
 
+[<img src="https://github.com/gigsoll/i3-setup/screenshots/alive.png" width="25"/>](https://savelife.in.ua/en/)
+[<img src="https://github.com/gigsoll/i3-setup/screenshots/pritula.png" width="25"/>](https://prytulafoundation.org/en)
+
+
 ## Install (Arch only)
 ```bash
 git clone https://github.com/gigsoll/i3-setup.git
