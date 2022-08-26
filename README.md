@@ -68,4 +68,4 @@ cd i3-setup
 
 
 ![GTK](https://github.com/gigsoll/i3-setup/blob/master/screenshots/gtk.png?raw=true "Optional Title")	![Workflow](https://github.com/gigsoll/i3-setup/blob/master/screenshots/work.png?raw=gtrue "Optional Title")
-
+![Chrome](https://github.com/gigsoll/i3-setup/blob/master/screenshots/chrome.png?raw=true "Optional Title")	
