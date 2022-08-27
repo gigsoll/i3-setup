@@ -12,7 +12,7 @@
 
 ## Realy important information
 
-On the morning of February 24, Russia began its invasion of Ukraine. We are all very grateful for your help. If you have a desire to help personally, you will make a donation to this founds. Every donation counts. Thank you ☺️
+On the morning of February 24, Russia began its invasion of Ukraine. We are all very grateful for your and your countrys help. If you have a desire to help personally, you will make a donation to this founds. Every donation counts. Thank you ☺️
 
 Since 2014, “Come Back Alive” key goal has been to make the Armed Forces more efficient, save the lives of the military and systematically counter the enemy.
 
