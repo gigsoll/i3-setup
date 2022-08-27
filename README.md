@@ -28,6 +28,7 @@ The task of the military headquarters of the Serhiy Prytula Charitable Foundatio
 git clone https://github.com/gigsoll/i3-setup.git
 cd i3-setup
 ./install.sh
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
 
 
