@@ -41,13 +41,15 @@ pacman -Qi yay > /dev/null || {
                 echo "yay not installed"
                 exit 1
             }
-            yayp="$(sed -n '1p' "$scriptpath/sources/pacman.txt")"
-            sudo yay -S --needed $yayp
-            systemctl --user enable spotify-listener
-		    systemctl --user enable touchegg
         ;;
     esac
 }
+
+yayp="$(sed -n '1p' "$scriptpath/sources/pacman.txt")"
+sudo yay -S --needed $yayp
+
+systemctl --user enable spotify-listener
+systemctl --user enable touchegg
 
 cp -r "$scriptpath/.config" "$HOME"
 cp "$scriptpath/.vimrc" "$HOME"
